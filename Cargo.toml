@@ -1,0 +1,8 @@
+[package]
+name = "let-some"
+version = "0.1.0"
+edition = "2021"
+description = "Show let some bug"
+license = "MIT"
+
+[dependencies]

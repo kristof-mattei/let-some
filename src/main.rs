@@ -3,9 +3,7 @@ fn get_obj() -> Option<bool> {
 }
 
 fn main() {
-    let obj = get_obj();
-
-    if let Some(o) = obj {
+    if let Some(o) = get_obj() {
         // breakpoint on vvvvv
         println!("{o}");
         // when you hit it you do not see 'o' in 'locals',
